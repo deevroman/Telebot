@@ -1,16 +1,29 @@
 {
-    "name": "deevroman/telebot",
-    "description": "Telegram Bot API",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "deevroman",
-            "email": "roman.deev06@gmail.com"
-        }
-    ],
-    "require": {},
-    "autoload": {
-        "classmap" : ["src"]
+  "name": "deevroman/telebot",
+  "description": "Telegram Bot API",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "deevroman",
+      "email": "roman.deev06@gmail.com"
     }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-json": "*",
+    "ext-mongodb": "^1.7",
+    "ext-mbstring": "*",
+    "ext-mysqli": "*",
+    "ext-curl": "*",
+    "mongodb/mongodb": "^1.6",
+    "deevroman/simple-my-sql": "*",
+    "ext-mongo": "*"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  }
 }
