@@ -1,0 +1,16 @@
+{
+    "name": "deevroman/telebot",
+    "description": "Telegram Bot API",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "deevroman",
+            "email": "roman.deev06@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap" : ["src"]
+    }
+}
