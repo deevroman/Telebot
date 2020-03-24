@@ -17,8 +17,7 @@
     "ext-mysqli": "*",
     "ext-curl": "*",
     "mongodb/mongodb": "^1.6",
-    "deevroman/simple-my-sql": "*",
-    "ext-mongo": "*"
+    "deevroman/simple-my-sql": "*"
   },
   "minimum-stability": "dev",
   "autoload": {
